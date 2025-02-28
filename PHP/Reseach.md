@@ -26,3 +26,21 @@ echo has no return value while print has a return value of 1
 In PHP, variable and constant names are case sensitive, while function names and class names are not.
 
 <hr>
+
+# programming language vs scripting language
+
+Scripting languages are used for smaller tasks, whereas programming languages help build large and complex software applications
+
+<hr>
+
+# dynamically typed vs statically typed language.
+
+Dynamic typing offers a breezy simplicity, allowing developers to write more concise code without the need to explicitly declare data types. In contrast, static typing often requires additional type annotations, which can make the code more verbose but also more structured
+
+<hr>
+
+# What is the difference between assign by reference and value?
+
+Pass-by-reference: When a method is called, the method arguments reference the same variable in memory as the caller. Pass-by-value: When a method is called, the caller passes a copy of the argument variables to the method resulting in two values in memory;
+
+<hr>

@@ -44,3 +44,9 @@ Dynamic typing offers a breezy simplicity, allowing developers to write more con
 Pass-by-reference: When a method is called, the method arguments reference the same variable in memory as the caller. Pass-by-value: When a method is called, the caller passes a copy of the argument variables to the method resulting in two values in memory;
 
 <hr>
+
+# What is the difference between for and foreach loop in PHP?
+
+The foreach loop simplifies code that needs to operate on each element of an array. Without foreach , you would typically use a for loop, initializing a counter variable and managing the loop's conditions and increments manually. However, this can lead to more complex and error-prone code.
+
+<hr>

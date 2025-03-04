@@ -1,28 +1,17 @@
 <?php
+
 $index = 0;
-while ($index <= 20) {
-    if ($index % 2 == 0 && $index != 0) {
-        echo $index . "<br>";
-    }
-    $index++;
-}
-?>
 
-<?php
+// for($i = $index; $i <= 20; $i += 2){
+//     if($i > 0 && $i % 2 == 0) echo $i . "<br>";
+// }
 
-for ($index = 2; $index <= 20; $index += 2) {
-    echo $index . "<br>";
-}
-?>
+// while($index <= 20){
+//     if($index != 0 && $index % 2 == 0) echo $index . "<br>";
+//     $index += 2;
+// }
 
-<?php
-
-$index = 2;
-do {
-    echo $index . "<br>";
+do{
+    if($index != 0 && $index % 2 == 0) echo $index . "<br>";
     $index += 2;
-} while ($index <= 20);
-?>
-
-?>
-
+}while($index <= 20);

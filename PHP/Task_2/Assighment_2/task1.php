@@ -1,8 +1,4 @@
 <?php
-$index = 10;
 
-while ($index >= 1) {
-    echo $index . "<br>";
-    $index--;
-}
-?>
+$index = 10;
+for($i = $index; $i >= 1; $i--) echo $i . "<br>";

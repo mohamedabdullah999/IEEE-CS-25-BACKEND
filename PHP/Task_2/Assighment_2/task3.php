@@ -1,8 +1,10 @@
 <?php
-$num = 2;
 
+$num = 2;
+$num2 = 1;
 while ($num < 520) {
-    echo ($num / 2) . "<br>"; 
-    $num = ($num * 2) + 2; 
+    echo $num2 . "<br>";
+    $num2 *= 2;
+    $num2 += 2;
+    $num = $num2;
 }
-?>

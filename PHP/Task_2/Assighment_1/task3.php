@@ -1,18 +1,14 @@
 <?php
+
 $admins = ["Osama", "Ahmed", "Sayed"];
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST['user'];
-
-    echo "The Request Method Is Post And Username Is $username<br>";
-
-    if (in_array($username, $admins)) {
-        echo "This Username $username Is Admin";
-    }
+if($_SERVER["REQUEST_METHOD"] === "POST" && in_array($_POST['username'] , $admins)){
+    echo " The Request is Post And Username IS " . $_POST['username'] . '<br>';
+    echo "The username " . $_POST['username'] . "is Admin";
 }
 ?>
 
 <form action="" method="POST">
-    <input type="text" name="user">
+    <input type="text" name="username">
     <input type="submit" value="Send">
 </form>

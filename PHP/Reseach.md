@@ -50,3 +50,20 @@ Pass-by-reference: When a method is called, the method arguments reference the s
 The foreach loop simplifies code that needs to operate on each element of an array. Without foreach , you would typically use a for loop, initializing a counter variable and managing the loop's conditions and increments manually. However, this can lead to more complex and error-prone code.
 
 <hr>
+
+# Sessions vs. Cookies.
+
+Cookies are small text files stored on the user's computer, while sessions are temporary storage mechanisms on the server side. Both cookies and sessions play a crucial role in maintaining user preferences, tracking user behavior, and enabling personalized experiences.
+
+<hr>
+
+# Error Handling in PHP.
+
+Error handling in PHP is simple. An error message with filename, line number and a message describing the error is sent to the browser.
+When creating scripts and web applications, error handling is an important part. If your code lacks error checking code, your program may look very unprofessional and you may be open to security risks.
+
+<hr>
+
+# How PHP Executes Code?
+
+code execution is linear, and the compiling is carried out as well as the executing in cycles per line of a script
